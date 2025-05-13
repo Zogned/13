@@ -23,7 +23,7 @@ aside {
 }
 footer {
     background-color: deeppink;
-    height: 200px;
+    height: 500px;
     clear: both;
 }
 @media only screen and (max-width:800px){
