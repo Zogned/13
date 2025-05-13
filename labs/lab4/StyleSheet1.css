@@ -1,0 +1,79 @@
+﻿body {
+    background: linear-gradient(135deg,white 0 10%,#363636 75% 100%);
+}
+p {
+    color: black;
+    font-size: 50px;
+}
+.big {
+    font-size: 2em;
+}
+.Vert1 {
+    writing-mode: vertical-rl;
+}
+.Vert2 {
+    writing-mode: sideways-lr;
+}
+.p1 {
+    font-family: Helvetica, sans-serif;
+}
+.p2 {
+    font-family: 'Segoe UI', Tahoma, Tahoma, Verdana;
+    text-transform: uppercase;
+}
+.p3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+.p4 {
+    font-family: "Ponomar", system-ui;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: yellow;
+    color: blue;
+}
+.p5 {
+    font-family: "Great Vibes", cursive;
+    text-shadow: 5px 5px 5px black,-5px -5px 5px green;
+    color: aliceblue;
+}
+.p6 {
+    font-family: "Press Start 2P", system-ui;
+}
+.s1 {
+    color: blue;
+    text-shadow: 5px 5px 5px yellow;
+    text-emphasis-style: double-circle;
+    text-emphasis: filled  double-circle yellow;
+}
+.s2 {
+    color: yellow;
+    text-shadow: 5px 5px 5px blue;
+    text-emphasis-style: double-circle;
+    text-emphasis: filled double-circle blue;
+}
+.p7 {
+    font-family: "Amatic SC", sans-serif;
+}
+.p8 {
+    color: white;
+    text-emphasis-style: double-circle;
+    text-emphasis: filled double-circle lightblue;
+    font-family: "Rubik Bubbles", system-ui;
+    text-decoration-line: underline;
+    text-decoration-style: revert;
+    text-decoration-color: lightblue;
+}
+.p9 {
+    color: aquamarine;
+    text-shadow: -15px -15px 5px white,15px 15px 5px pink;
+}
+.p10 {
+    color: blue;
+    text-shadow: 10px 10px 10px yellow;
+}
+.Sup1 {
+    color: black; 
+    text-shadow: 10px 10px 10px red;
+}

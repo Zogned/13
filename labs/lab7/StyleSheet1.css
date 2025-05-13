@@ -1,0 +1,63 @@
+﻿body {
+    background-image: url(https://img.freepik.com/free-photo/galaxy-night-view_23-2148895302.jpg);
+    background-size: cover;
+}
+p{
+    color: white;
+    font-size: 26px;
+    font-family: 'Times New Roman';
+}
+hr{
+    height: 2px;
+    background-color: black;
+    width: 100%;
+}
+h1, h2, h3{
+    margin: 35px;
+    color: orangered;
+}
+.fr{
+    margin: auto;
+    border: solid 1px darkgrey;
+    width: 753px;
+}
+.fr figcaption{
+    color: white;
+    padding: 0 6px 6px 6px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+table {
+    float: right;
+    font-size: 24px;
+    border: 5px double darkgrey;
+    width: 25%;
+}
+.tdr{
+    text-align: right;
+}
+th, td {
+    border: 1px solid purple;
+    color: White;
+
+}
+.rank {
+    color: lawngreen;
+    padding: 0 0 0 26px;
+}
+.flt {
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active{
+    color: orange;
+}
+a:visited{
+    color: chartreuse;
+}

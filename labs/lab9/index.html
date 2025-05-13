@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Note</title>
+    <link rel="stylesheet" href="StyleSheet1.css"/>
+</head>
+<body>
+    <form action="" name="form1" style="margin:40px;">
+        <label for="fname">Enter your name</label>
+        <input type="text" name="fname" size="20" maxlength="20" value="name" /><br /><br />
+        <label>
+            Disabled:
+            <input type="text" name="fname" size="20" maxlength="20" value="name" disabled /><br /><br />
+        </label>
+        <label>
+            Readonly:
+            <input type="text" name="fname" size="20" maxlength="20" value="name" readonly /><br /><br />
+        </label>
+        <label for="password">Enter your password</label>
+        <input type="password" name="password" size="20 " /><br /><br />
+        <label>
+            Your age:
+            <input type="number" name="age" size="5" /><br /><br />
+        </label>
+        <label for="">
+            Choose language<br />
+            <input type="checkbox" name="lang1" value="English" class="cb" />English<br /><br />
+            <input type="checkbox" name="lang1" value="French" class="cb" />French<br /><br />
+        </label>
+        <label for="">
+            Games:<br />
+            <input type="radio" name="game" value="GTA5" />GTA5<br /><br />
+            <input type="radio" name="game" value="Satisfactory" />Satisfactory<br /><br />
+            <input type="radio" name="game" value="Factorio" />Factorio<br /><br />
+            <input type="radio" name="game" value="No man's sky" />No man's sky<br /><br />
+            <input type="radio" name="game" value="Elite dangerous" />Elite dangerous<br /><br />
+
+            <input type="submit" value="I like everything" class="bor" />
+            <input type="reset" value="Reset" class="bor" />
+            <button class="bor">
+                <img src="https://cdn-icons-png.flaticon.com/512/1264/1264365.png" alt="" width="24" align="absmiddle" />
+                Send
+            </button>
+            <input type="file" name="loadfile" class="cbb" /><br /><br />
+        </label>
+        <label>
+            <textarea name="textarea1" wrap="off"></textarea>
+            <textarea name="textarea2" cols="30" rows="3" wrap="virtual"></textarea>
+            <textarea name="textarea3" cols="50" rows="5" wrap="physical"></textarea><br><br>
+        </label>
+        <label>
+            Choose a game:
+            <select name="Game">
+                <option value="Game1">=-= Please choose an game =-=</option>
+                <option value="Game2">Minecraft</option>
+                <option value="Game3">Rainbow six siege</option>
+                <option value="Game4">Deep rock galactic</option>
+                <option value="Game5">Undertale</option>
+                <option value="Game6">Barotrauma</option>
+            </select>
+            <select name="Game" size="3" multiple>
+                <option value="Game1">=-= Please choose an game =-=</option>
+                <option value="Game2">Minecraft</option>
+                <option value="Game3">Rainbow six siege</option>
+                <option value="Game4">Deep rock galactic</option>
+                <option value="Game5">Undertale</option>
+                <option value="Game6">Barotrauma</option>
+            </select>
+            <select name="Game" size="6" multiple>
+                <option value="Game1">=-= Please choose an game =-=</option>
+                <option value="Game2">Minecraft</option>
+                <option value="Game3">Rainbow six siege</option>
+                <option value="Game4">Deep rock galactic</option>
+                <option value="Game5">Undertale</option>
+                <option value="Game6">Barotrauma</option>
+            </select>
+        </label>
+    </form>
+</body>
+</html>

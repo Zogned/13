@@ -1,0 +1,85 @@
+﻿body {
+    background-color: chocolate;
+    background-image: url(https://cdn.pixabay.com/animation/2022/09/16/16/43/16-43-27-842_512.gif);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+}
+p {
+    color: black;
+    font-size: 1in;
+    background-image: url(https://media.istockphoto.com/id/1440114432/vector/abstract-watercolor-rainbow-background.jpg?s=612x612&w=0&k=20&c=MDG64hMEdOozcGIihFrRzgtm3phZnP6SEtpU9g4b55A=);
+    background-size: cover;
+}
+div {
+    width: 500px;
+    height: 500px;
+    margin: 25px;
+    float: left;
+}
+img{
+    margin: 35px;
+}
+#div1 {
+    background-image: linear-gradient(rgba(25,25,255,0.5),rgba(255,255,25,0.5)), url(https://wallart.ua/wpmd/7716-orig.jpg);
+    background-size: cover;
+    border: 30px ridge yellow;
+    width: 700px;
+}
+#div2 {
+    background-image: url(MR.png);
+    background-size: cover;
+    border: 30px ridge yellow;
+}
+#img1 {
+    width: 25%;
+    border: 25px double red;
+}
+#img2 {
+    width: 50%;
+    border-radius: 10%;
+    margin: auto;
+    display: flex;
+    box-shadow: -30px -30px #262626,30px 30px #800000, 0 0 105px blue;
+}
+#div3 {
+    border-width: 30px;
+    border-style: solid;
+    border-image: linear-gradient(yellow, blue) 30;
+}
+#div32 {
+    border-width: 30px;
+    border-style: solid;
+    border-image: linear-gradient(red, black) 30;
+}
+#div4 {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAD1BMVEUAV7f/1wAAULuln3f/2wCAuqzxAAAAzUlEQVR4nO3QsQGAMAzAsBT4/2b2eO0onaAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACASx62ednmY5vD5qSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpH7zk2pa0LCuDAAAAABJRU5ErkJggg==);
+    box-shadow: 0px 70px red, 0px -70px black;
+    background-size: cover;
+    margin: 125px;
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+}
+#div5{
+    background-color: white;
+    width: 500px;
+    height: 100px;
+    margin: 100px;
+    box-shadow: 0px 100px lightblue,0px -100px lightblue;
+}
+#div6 {
+    background-color: red;
+    width: 500px;
+    height: 100px;
+    margin: 150px;
+    box-shadow: 0px 100px yellow,0px -100px black;
+}
+#div7 {
+    background-color: white;
+    width: 500px;
+    height: 100px;
+    margin: 150px;
+    box-shadow: 0px 100px blue,0px -100px red;
+}

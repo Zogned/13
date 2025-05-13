@@ -1,0 +1,50 @@
+﻿body {
+    background-color: darkslategrey;
+}
+p{
+    background-color: coral;
+    font-size: 50px;
+    color: lightslategrey
+}
+span{
+    border: 2px dashed green;
+}
+ul li{
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    font-size: 24px;
+    border: 2px dashed orange;
+    margin: 5px;
+}
+ul li:hover{
+    background-color: darkcyan;
+    border: 2px double orange;
+}
+.first {
+    background-color: forestgreen;
+    color: lightslategrey;
+    width:500px;
+    height: 500px;
+    font-size: 50px;
+    margin-bottom: 60px;
+    border-width: 20px;
+    border-style: dashed ridge dotted double;
+    border-color: yellow blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#second{
+    width: 600px;
+    height: 600px;
+    background-color: antiquewhite;
+    padding: 50px;
+}
+#third, #fourth{
+    width: 700px;
+    height: 200px;
+    background-color: fuchsia;
+    margin: 50px;
+    padding: 50px;
+}

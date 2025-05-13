@@ -1,0 +1,260 @@
+﻿body
+{
+}
+header{
+    background-color:darkred;
+    height: 200px;
+}
+nav {
+    background-color: greenyellow;
+    width: 15%;
+    float: left;
+}
+main {
+    background-color: salmon;
+    width: 70%;
+    float: left;
+}
+aside {
+    background-color: deepskyblue;
+    width: 15%;
+    height: 25%;
+    float: left;
+}
+footer {
+    background-color: deeppink;
+    height: 200px;
+    clear: both;
+}
+@media only screen and (max-width:800px){
+    nav,main,aside{
+        width:100%;
+    }
+}
+/*-------------------------------------------------------------------------------------------------------------------------*/
+h1 {
+    font-size: 3vw;
+    z-index: 2;
+    color: aquamarine;
+}
+article{
+    border: dashed 5px black;
+    margin: 10px;
+}
+button{
+    float: left;
+    margin: 10px;
+        
+}
+.bgvideo{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgvideo video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    z-index: 1;
+}
+/*-------------------------------------------------Кнопки-----------------------------------------------------------*/
+.rainbow {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ff7576;
+    background-color: #2B3044;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    position: relative;
+    line-height: 24px;
+    border-radius: 9px;
+    box-shadow: 0px 1px 2px #2B3044, 0px 4px 16px #2B3044;
+    transform-style: preserve-3d;
+    transform: scale(var(--s, 1)) perspective(600px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+    perspective: 600px;
+    transition: transform 0.1s;
+    width:74%;
+    float:left;
+    margin: 12px;
+}
+
+.sp {
+    background: linear-gradient( 90deg, #866ee7, #ea60da, #ed8f57, #fbd41d, #2cca91 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    display: block;
+}
+
+.rainbow:active {
+    transition: 0.3s;
+    transform: scale(0.93);
+}
+
+.primary-button {
+    font-family: 'Ropa Sans', sans-serif;
+    /* font-family: 'Valorant', sans-serif; */
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    border: 1px solid #0E1822;
+    padding: 0.8rem 2.1rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 531.28 200'%3E%3Cdefs%3E%3Cstyle%3E .shape %7B fill: %23FF4655 /* fill: %230E1822; */ %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='shape' points='415.81 200 0 200 115.47 0 531.28 0 415.81 200' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    background-color: #0E1822;
+    background-size: 200%;
+    background-position: 200%;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+    transition-property: background-position, border, color;
+    position: relative;
+    z-index: 1;
+    width: 67%;
+    float: left;
+    margin: 12px;
+}
+
+    .primary-button:hover {
+        border: 1px solid #FF4655;
+        color: white;
+        background-position: 40%;
+    }
+
+    .primary-button:before {
+        content: "";
+        position: absolute;
+        background-color: #0E1822;
+        width: 0.2rem;
+        height: 0.2rem;
+        top: -1px;
+        left: -1px;
+        transition: background-color 0.15s ease-in-out;
+    }
+
+    .primary-button:hover:before {
+        background-color: white;
+    }
+
+    .primary-button:hover:after {
+        background-color: white;
+    }
+
+    .primary-button:after {
+        content: "";
+        position: absolute;
+        background-color: #FF4655;
+        width: 0.3rem;
+        height: 0.3rem;
+        bottom: -1px;
+        right: -1px;
+        transition: background-color 0.15s ease-in-out;
+    }
+
+.button-borders {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+    .button-borders:before {
+        content: "";
+        position: absolute;
+        width: calc(100% + 0.5em);
+        height: 50%;
+        left: -0.3em;
+        top: -0.3em;
+        border: 1px solid #0E1822;
+        border-bottom: 0px;
+        /* opacity: 0.3; */
+    }
+
+    .button-borders:after {
+        content: "";
+        position: absolute;
+        width: calc(100% + 0.5em);
+        height: 50%;
+        left: -0.3em;
+        bottom: -0.3em;
+        border: 1px solid #0E1822;
+        border-top: 0px;
+        /* opacity: 0.3; */
+        z-index: 0;
+    }
+
+.shape {
+    fill: #0E1822;
+}
+/*-------------------------------------------------Соц. мережі-----------------------------------------------------------*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+.maps {
+    margin: 15px;
+    width: 450px;
+    height: 250px;
+    border: 0;
+}
+.msg {
+    margin: 25px;
+    color: white;
+    text-shadow: 8px 8px 8px aqua;
+}
+.divb {
+    background-color: black;
+}

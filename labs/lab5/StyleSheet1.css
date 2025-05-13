@@ -1,0 +1,78 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Rubik+Bubbles&display=swap');
+body {
+    background-color: lightblue;
+}
+p {
+    font-family: "Barriecito", system-ui;
+    font-size: 5vw;
+    color: palevioletred;
+}
+.p1{
+    text-align: center;
+}
+.ul1 li{
+    padding-left: 20px;
+}
+ol, ul, dl {
+    color: darkred;
+    font-size: 24px;
+    background: linear-gradient(lightblue, palevioletred);
+    margin-left: 75px;
+}
+    ol li, ul li {
+        background: linear-gradient(lightblue 0% 70%, green 90% 100%);
+    }
+@counter-style emoji {
+    system: cyclic;
+    symbols: 🐵 🦍 🐺 🦊 🦝;
+    suffix: "";
+}
+@counter-style ukr {
+    system: fixed;
+    symbols: а б в г ґ д е є ж х и і ї й к л м н о п р с е у ф х ц ч ш щ ь ю я;
+    suffix: "";
+}
+ul.SML{
+    list-style: emoji;
+}
+.ul10 li::marker{
+    color: blue;
+    font-size: 1.2em;
+}
+ol.Ukraine {
+    list-style: ukr;
+}
+.Red {
+    color: red;
+}
+.Green{
+    color:greenyellow;
+}
+.Blue{
+    color: blue;
+}
+.White {
+    color: white;
+}
+.Pink{
+    color: pink;
+}
+.Lightblue {
+    color: Lightblue;
+}
+.Aqua {
+    color: aqua;
+}
+.Cornflowerblue {
+    color: cornflowerblue;
+}
+.Lime{
+    color: lime;
+}
+.Yellow{
+    color: yellow;
+}
+.Violet{
+    color: violet;
+}
+
